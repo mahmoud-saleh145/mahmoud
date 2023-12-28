@@ -1,0 +1,78 @@
+body {
+    background-color: #24353F;
+    font-family: sans-serif;
+}
+
+.login-box {
+    width: 54%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.Signup-box {
+    width: 54%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    color: #17A2B8;
+}
+
+.form-control {
+    background-color: inherit;
+    color: white;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: inherit;
+    border-color: #86b7fe;
+    box-shadow: none;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.6;
+}
+
+.btn {
+    background-color: inherit;
+    color: #17A2B8;
+    width: 100%;
+    border: 1px solid #17A2B8;
+}
+
+.btn:hover {
+    background-color: #17A2B8;
+    color: white;
+}
+
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    color: white;
+    background-color: #17A2B8;
+    border-color: #17A2B8;
+}
+
+button:focus:not(:focus-visible) {
+    box-shadow: rgba(23, 162, 184, 0.5) 0px 0px 0px 0.2rem;
+}
+
+.login-box a {
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+.Signup-box a {
+    text-decoration: none;
+}
+
+.Signup-box a:hover {
+    text-decoration: underline;
+}

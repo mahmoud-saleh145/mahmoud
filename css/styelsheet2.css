@@ -1,0 +1,37 @@
+body {
+    background-color: #24353F;
+    font-family: sans-serif;
+    height: 75vh;
+}
+
+.navbar {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.btn {
+    background-color: inherit;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn:hover {
+    color: white;
+}
+
+:not(.btn-check)+.btn:active {
+    color: white;
+    background-color: #ffc107;
+    border-color: #ffc107;
+
+}
+
+button:focus:not(:focus-visible) {
+    box-shadow: rgba(255, 193, 7, 0.5) 0px 0px 0px 0.2rem;
+
+}
+
+
+.welcome {
+    width: 64%;
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}

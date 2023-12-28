@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Titillium+Web:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styelsheet2.css">
+</head>
+
+<body onload="displayWelcome()">
+
+
+    <nav class="navbar navbar-expand-lg text-white py-2 ">
+        <div class="container">
+            <h5 class="mx-5">SMART LOGIN</h5>
+            <button type="button" class="btn btn-outline-warning ms-auto mx-5" onclick="logout()"><a
+                    class="text-white text-decoration-none py-2" href="./index.html">Logout</a></button>
+        </div>
+    </nav>
+
+
+    <div class="container my-5 text-center d-flex align-items-center h-100">
+        <div class="welcome m-auto p-5 text-info opacity-75">
+            <h1 id="welcomeUser"></h1>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Titillium+Web:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styelsheet.css">
+</head>
+
+<body>
+
+
+
+    <div class="d-flex justify-content-center mt-5">
+        <div class="Signup-box  p-5 text-center">
+            <h1 class="fw-bol">Smart Login System</h1>
+            <input type="text" placeholder="Enter your name" class="userName form-control my-3">
+            <small class="text-danger d-none" id="worngName">name must be more than 2 letters</small>
+            <input type="email" placeholder="Enter your email" class="email form-control my-3">
+            <small class="text-danger d-none" id="worngEmail">this email not valid</small>
+            <input type="password" placeholder="Enter password" class="password form-control mb-3 my-3">
+            <small class="text-danger d-none py-3" id="worngPass">password must be more than 6 letters</small>
+
+            <small class="text-success d-none" id="success">Success</small>
+            <small class="text-danger d-none" id="required">All inputs is required</small>
+            <small class="text-danger d-none" id="exist">email already exists</small>
+            <button class="btn my-3" onclick="signUp()">Sign Up</button>
+            <p class="text-white">You have an account?<span class="ps-1"><a href="./index.html" class="text-white ">Sign
+                        in</a></span></p>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
